@@ -16,6 +16,7 @@ import {
   findVerificationTokenByHash,
   markUserEmailVerified,
   replaceVerificationToken,
+  bumpUserTokenVersion,
 } from '../repositories';
 import { hashPassword, verifyPassword } from './password';
 import { signAccessToken, signRefreshToken, verifyRefreshToken } from './tokens';
